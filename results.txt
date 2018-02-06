@@ -1,0 +1,12 @@
+# $ ruby benchmark_jsonapi-rb.rb && ruby benchmark_fastjsonapi.rb 
+
+Warming up --------------------------------------
+          jsonapi-rb    10.000  i/100ms
+Calculating -------------------------------------
+          jsonapi-rb    111.401  (±20.6%) i/s -      1.580k in  15.058330s
+
+
+Warming up --------------------------------------
+        fastjson-api   118.000  i/100ms
+Calculating -------------------------------------
+        fastjson-api      1.270k (± 9.6%) i/s -     18.880k in  15.014813s
